@@ -1,0 +1,42 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U physics%b		physics.adb		7fbef6ed NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+
+U physics%s		physics.ads		e5e6fc18 EE NE OO PK IL
+
+D ada.ads		20250808065140 76789da1 ada%s
+D a-numeri.ads		20250808065140 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20250808065140 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20250808065140 324808ac ada.numerics.generic_elementary_functions%s
+D a-unccon.ads		20250808065140 0e9b276f ada.unchecked_conversion%s
+D physics.ads		20260330185530 e5e6fc18 physics%s
+D physics.adb		20260330185522 99b037e9 physics%b
+D system.ads		20250808065140 a869df9e system%s
+D s-exctab.ads		20250808065140 91bef6ef system.exception_table%s
+D s-stalib.ads		20250808065140 1c9580f6 system.standard_library%s
+G a e
+G c Z s b [tsiolkovsky physics 3 13 none]
+X 1 ada.ads
+18K9*Ada 22e8 7|1r6
+X 2 a-numeri.ads
+20K13*Numerics 36e17 7|1r10
+X 3 a-nuelfu.ads
+18K22*Elementary_Functions[4|39] 7|1w19
+X 6 physics.ads
+1K9*physics 8l5 8e12 7|3b14 18l5 18t12
+3V13*Tsiolkovsky{long_float} 3>27 4>27 5>27 7|5b13 16l8 16t19
+3f27 Ve{long_float} 7|5b26
+4f27 M0{long_float} 7|5b43
+5f27 Mf{long_float} 7|5b60
+

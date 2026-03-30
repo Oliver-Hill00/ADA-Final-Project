@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\rocket_simulator.gpr
+20260330195208 a8b653a23fb78742ab55e74aecfd206e
+[BOUND OBJECT FILES]
+C:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\obj\destinations.o
+C:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\obj\physics.o
+C:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\obj\
+-LC:\Users\Owner\Desktop\BSU Comp Sci All Classes\CS354_Work\Final Project\ADA-Final-Project\obj\
+-LC:/users/owner/appdata/local/alire/cache/toolchains/gnat_native_15.2.1_346e2e00/lib/gcc/x86_64-w64-mingw32/15.2.0/adalib/
+-static
+C:/users/owner/appdata/local/alire/cache/toolchains/gnat_native_15.2.1_346e2e00/lib/gcc/x86_64-w64-mingw32/15.2.0/adalib/libgnat.a
+-lm
+-Wl,--stack=0x2000000

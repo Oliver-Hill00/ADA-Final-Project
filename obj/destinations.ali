@@ -1,0 +1,39 @@
+V "GNAT Lib v15"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U destinations%b	destinations.adb	9e0e6fd9 NE OO PK IL
+
+U destinations%s	destinations.ads	635b6172 EE NE OO PK IL
+
+D destinations.ads	20260330190358 635b6172 destinations%s
+D destinations.adb	20260330190848 fd550eab destinations%b
+D system.ads		20250808065140 a869df9e system%s
+G a e
+G c Z s b [required_delta_v destinations 5 13 none]
+G c Z s b [print_reachable destinations 7 14 none]
+X 1 destinations.ads
+1K9*destinations 9l5 9e17 2|1b14 28l5 28t17
+3E9*Destination_Name 3e98 5r39 2|3r40
+3n30*Moon{3E9} 2|8r15
+3n36*Mars{3E9} 2|9r15
+3n42*Venus{3E9} 2|10r15
+3n49*Saturn{3E9} 2|11r15
+3n57*Jupiter{3E9} 2|12r15
+3n66*Neptune{3E9} 2|13r15
+3n75*Uranus{3E9} 2|14r15
+3n83*Pluto{3E9} 2|15r15
+3n90*The_Sun{3E9} 2|16r15
+5V13*Required_Delta_V{long_float} 5>31 2|3b13 19l8 19t24
+5e31 Target{3E9} 2|3b31 7r12
+7U14*Print_Reachable 7>31 2|21b14 26l8 26t23
+7f31 Delta_V{long_float} 2|21b31
+

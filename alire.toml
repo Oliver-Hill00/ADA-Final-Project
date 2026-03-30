@@ -1,0 +1,3 @@
+name = "rocket_simulator"
+description = "Rocket Destination Feasibility Simulator"
+version = "0.1.0"
